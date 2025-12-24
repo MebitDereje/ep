@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Admissions - Ethiopian Police University">
+    <title>Admissions - Ethiopian Police University</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img class="center-image" src="download.jpeg" alt="Description of Image" width="300" height="200">
+
+                    <span></span>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html" class="active">Admissions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Admissions</h1>
+            <p>Join the next generation of law enforcement professionals</p>
+        </div>
+    </section>
+
+    <!-- Admission Requirements -->
+    <section class="content-section">
+        <div class="container">
+            <h2>General Admission Requirements</h2>
+            
+            <div class="requirements-grid">
+                <div class="req-card">
+                    <h3>Undergraduate Programs</h3>
+                    <ul>
+                        <li>Ethiopian School Leaving Certificate (Grade 12 completion)</li>
+                        <li>Minimum average grade of 2.75 (or equivalent)</li>
+                        <li>Pass entrance examination</li>
+                        <li>Medical fitness certificate</li>
+                        <li>Good moral character reference</li>
+                        <li>Age: 18-25 years</li>
+                    </ul>
+                </div>
+                <div class="req-card">
+                    <h3>Postgraduate Programs</h3>
+                    <ul>
+                        <li>Bachelor's degree from recognized institution</li>
+                        <li>Minimum CGPA of 3.0 (or equivalent)</li>
+                        <li>Relevant work experience (for some programs)</li>
+                        <li>Two academic reference letters</li>
+                        <li>Statement of purpose</li>
+                        <li>Pass entrance examination/interview</li>
+                    </ul>
+                </div>
+                <div class="req-card">
+                    <h3>TVET/Diploma Programs</h3>
+                    <ul>
+                        <li>Grade 10 or Grade 12 completion (program dependent)</li>
+                        <li>Minimum average grade of 2.0</li>
+                        <li>Physical fitness assessment</li>
+                        <li>Medical clearance</li>
+                        <li>Character reference</li>
+                        <li>Age: 18-30 years</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Status Check -->
+    <section class="status-check">
+        <div class="container">
+            <h2>Check Application Status</h2>
+            <p>Enter your application ID to check the status of your application.</p>
+            <form class="status-form" id="statusForm">
+                <div class="form-group">
+                    <label for="applicationId">Application ID</label>
+                    <input type="text" id="applicationId" name="applicationId" placeholder="e.g., EPU2025-12345" required>
+                    <span class="error-message" id="applicationIdError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="birthDate">Date of Birth</label>
+                    <input type="date" id="birthDate" name="birthDate" required>
+                    <span class="error-message" id="birthDateError"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Check Status</button>
+            </form>
+            <div class="status-result" id="statusResult"></div>
+        </div>
+    </section>
+
+    <!-- Important Dates -->
+    <section class="important-dates">
+        <div class="container">
+            <h2>Important Dates - 2026 Academic Year</h2>
+            <div class="dates-grid">
+                <div class="date-item">
+                    <div class="date-number">Jan 15</div>
+                    <p>Application Opens</p>
+                </div>
+                <div class="date-item">
+                    <div class="date-number">Mar 30</div>
+                    <p>Application Deadline</p>
+                </div>
+                <div class="date-item">
+                    <div class="date-number">May 15</div>
+                    <p>Entrance Examination</p>
+                </div>
+                <div class="date-item">
+                    <div class="date-number">Jun 30</div>
+                    <p>Results Announcement</p>
+                </div>
+                <div class="date-item">
+                    <div class="date-number">Sep 1</div>
+                    <p>Academic Year Begins</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Ethiopian Police University</h3>
+                    <p>Leading institution in law enforcement education and training in Ethiopia.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Programs</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <p>Sendafa, Oromia, Ethiopia</p>
+                    <p>Phone: +251-11-XXX-XXXX</p>
+                    <p>Email: info@epu.edu.et</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ethiopian Police University. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
